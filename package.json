@@ -7,7 +7,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "posdeploy": "echo 'Deployment complete!'",
+    "postdeploy": "echo 'Deployment complete!'",
     "dev": "vite --port 8080",
     "build": "vite build",
     "lint": "eslint .",
